@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tofuken.securekeyring.MainActivity">
+
+
+    <TextView
+        android:id="@+id/titleSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ListView
+        android:id="@+id/key_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleSection"
+        android:background="@color/colorListBackground"
+        android:divider="@color/colorListDivider"
+        android:dividerHeight="1dp" />
+    <!--
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Encrypt"
+           android:id="@+id/encrypt"
+           android:layout_gravity="bottom"
+           android:enabled="true"
+           android:layout_alignParentBottom="true"
+           android:onClick="encrypt"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Decrypt"
+           android:id="@+id/decrypt"
+           android:layout_gravity="bottom"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentStart="false"
+           android:layout_alignParentLeft="false"
+           android:layout_alignParentBottom="true"
+           android:onClick="decrypt"/>
+
+       <ScrollView
+           android:id="@+id/scrollView"
+           android:layout_width="match_parent"
+           android:layout_height="150dp">
+
+           <EditText
+               android:id="@+id/textInput"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:inputType="text|textMultiLine"
+               android:text="abcd" />
+       </ScrollView>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Encrypt"
+           android:id="@+id/encrypt"
+           android:layout_gravity="bottom"
+           android:enabled="true"
+           android:layout_alignParentBottom="true"
+           android:onClick="encrypt"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Decrypt"
+           android:id="@+id/decrypt"
+           android:layout_gravity="bottom"
+           android:layout_alignParentEnd="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentStart="false"
+           android:layout_alignParentLeft="false"
+           android:layout_alignParentBottom="true"
+           android:onClick="decrypt"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="New Text"
+           android:id="@+id/textView"
+           android:layout_below="@+id/scrollView"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_above="@+id/encrypt"
+           android:layout_alignRight="@+id/decrypt"
+           android:layout_alignEnd="@+id/decrypt"
+           android:background="#fbd4d4" />
+   -->
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings"
+    >
+    <ListPreference
+        android:key="pref_key_idle_time"
+        android:title="Idle Time"
+        android:dialogTitle="Idle Time"
+        android:entries="@array/idle_entry"
+        android:entryValues="@array/idle_vales"
+        android:defaultValue="300000" />
+
+</PreferenceScreen>

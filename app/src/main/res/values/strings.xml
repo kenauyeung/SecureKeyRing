@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Secure Key Ring</string>
+    <string name="button_back">Go Back</string>
+    <string name="button_ok">OK</string>
+    <string name="button_unlock">Unlock</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_create">Create</string>
+    <string name="button_save">Save</string>
+    <string name="button_setting">Setting</string>
+    <string name="button_chgkey">Change Key</string>
+    <string name="select_key_file">Select Secure Key File</string>
+    <string name="old_key">Current key</string>
+    <string name="unlock_key">Enter key</string>
+    <string name="confirm_key">Confirm key</string>
+    <string name="create_key_file">Create a new key file</string>
+    <string name="new_key_file">Enter a key file name</string>
+    <string name="new_key">Enter a new key</string>
+    <string name="error_title">Error</string>
+    <string name="info_title">Info</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="invalid_key">Invalid Key</string>
+    <string name="file_overwrite">Overwrite?</string>
+    <string name="msg_error_load">Unable to load container</string>
+    <string name="msg_error_verify">Save verification failed</string>
+    <string name="msg_error_rename">Unable rename tmp file</string>
+
+    <string name="msg_load_file">Please Load Key file first</string>
+    <string name="msg_confirm_del">Confirm delete?</string>
+    <string name="msg_name_key_not_empty">Name and Key cannot be empty</string>
+    <string name="msg_no_file_list">No File List</string>
+    <string name="msg_key_changed">Key changed</string>
+
+    <string name="menu_load_file">Load Key File</string>
+    <string name="menu_new_file">Create Key File</string>
+    <string name="menu_add_item">Add Key Item</string>
+    <string name="menu_del_item">Del Key Item</string>
+
+    <string name="file_exist">File already exist</string>
+    <string name="file_not_exist">File already exist</string>
+
+    <string name="field_cannot_empty">Field(s) cannot be empty!</string>
+    <string name="field_key_not_match">Key not match</string>
+    <string name="field_old_key_not_match">Current key not match</string>
+
+    <string-array name="idle_entry">
+        <item>1 Min</item>
+        <item>2 Min</item>
+        <item>3 Min</item>
+        <item>4 Min</item>
+        <item>5 Min</item>
+        <item>10 Min</item>
+        <item>20 Min</item>
+        <item>30 Min</item>
+        <item>40 Min</item>
+        <item>50 Min</item>
+        <item>60 Min</item>
+        </string-array>
+
+    <string-array name="idle_vales">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1200000</item>
+        <item>2400000</item>
+        <item>3600000</item>
+        <item>4800000</item>
+        <item>6000000</item>
+    </string-array>
+
+
+</resources>

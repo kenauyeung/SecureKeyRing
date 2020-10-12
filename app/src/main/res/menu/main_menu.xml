@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ifRoom：如果空間夠用，就顯示。
+never：永遠不顯示，隱藏在 overflow 裡。
+withText：顯示文字，可和 ifRoom 並用。
+always：一定顯示。
+collapseActionView：折疊顯示。
+http://blog.tonycube.com/2014/02/android-actionbarcompat-2.html
+
+Available icons : http://since2006.com/android/2.1-drawables.php
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_del_confirm"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_del_item"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="101"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <group android:id="@+id/grp1">
+
+                <item
+                    android:id="@+id/action_load_file"
+                    android:icon="@drawable/ic_folder_open"
+                    android:title="@string/menu_load_file"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/action_new_file"
+                    android:icon="@drawable/ic_create_new_folder"
+                    android:title="@string/menu_new_file"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/action_new_key"
+                    android:icon="@android:drawable/ic_menu_add"
+                    android:title="@string/menu_add_item"
+                    android:visible="false"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/action_del_key"
+                    android:icon="@android:drawable/ic_menu_delete"
+                    android:title="@string/menu_del_item"
+                    android:visible="false"
+                    app:showAsAction="always" />
+
+            </group>
+            <group android:id="@+id/grp2">
+                <item
+                    android:id="@+id/action_changekey"
+                    android:icon="@android:drawable/ic_menu_edit"
+                    android:title="@string/button_chgkey"
+                    android:visible="true"
+                    app:showAsAction="always" />
+            </group>
+            <!--
+            <group android:id="@+id/grp2">
+                <item
+                    android:id="@+id/action_setting"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    android:title="@string/button_setting"
+                    android:visible="true"
+                    app:showAsAction="always" />
+            </group>
+            -->
+        </menu>
+
+
+    </item>
+</menu>
